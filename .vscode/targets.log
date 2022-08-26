@@ -1,0 +1,448 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug 26 14:47:00 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+PYENV = %USERPROFILE%\.pyenv\pyenv-win\
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\MeadsChalcroft
+# environment
+LOCALAPPDATA = C:\Users\MeadsChalcroft\AppData\Local
+# makefile (from 'Makefile', line 4)
+PACT_CLI = "docker run --rm -v ${PWD}:${PWD} -e PACT_BROKER_BASE_URL -e PACT_BROKER_TOKEN pactfoundation/pact-cli"
+# environment
+VSCODE_CWD = C:\Users\MeadsChalcroft\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+# environment
+NPM_TOKEN = bnNoMmg0b3l5dDRhcm5uanF5NDVuYXNtbGZsN2l5MnYzaWxkaHB5ZWMzYWtxeHRmYmdlYQ==
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# makefile (from 'Makefile', line 10)
+DEPLOY_TARGET = no_deploy
+# environment
+PACT_PROVIDER = C:\Workspace\PactTesting\example-bi-directional-provider-dotnet
+# environment
+PTSMINSTALLPATH_X86 = C:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_193600_MQSZPAKNGFRYULXA
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\MeadsChalcroft\OneDrive - Serko Ltd
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\MeadsChalcroft\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\MEADSC~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\MeadsChalcroft\OneDrive - Serko Ltd
+# makefile
+CURDIR := c:/Workspace/PactTesting/JS/example-provider
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 193600
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+ONLINESERVICES = Online Services
+# automatic
+*F = $(notdir $*)
+# environment
+PACT_BROKER_TOKEN = qKMUDjIjt7Zx70mj-NubMQ
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\MeadsChalcroft
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\windows\system32\cmd.exe
+# environment
+WINDIR = C:\windows
+# environment
+MAKELEVEL := 0
+# environment
+MAKE = C:\Program Files (x86)\GnuWin32\bin\make.exe
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Workspace\pact;C:\Ruby31-x64\bin;C:\Users\MeadsChalcroft\AppData\Local\Microsoft\WindowsApps;C:\Users\MeadsChalcroft\.dotnet\tools;C:\Users\MeadsChalcroft\AppData\Local\Programs\Fiddler;C:\tools\Cmder;C:\Users\MeadsChalcroft\.dotnet\tools;C:\Users\MeadsChalcroft\.pyenv\pyenv-win\bin;C:\Users\MeadsChalcroft\.pyenv\pyenv-win\shims;;C:\Users\MeadsChalcroft\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-D1CQ8Q8
+# environment
+PACT_BROKER_BASE_URL = https://serko-test.pactflow.io
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+SERKOENVIRONMENTCODE = t
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132695667505097467
+# makefile (from 'Makefile', line 1)
+PACTICIPANT := "pactflow-example-provider"
+# environment
+PTSMINSTALLPATH = c:\Program Files\HP\HP ProtectTools Security Manager\Bin\
+# environment
+LOGONSERVER = \\DESKTOP-D1CQ8Q8
+# environment
+SERKOLOCATIONCODE = aue
+# environment
+USERNAME = MeadsChalcroft
+# environment
+NUGET_PAT = nsh2h4oyyt4arnnjqy45nasmlfl7iy2v3ildhpyec3akqxtfbgea
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+ENVIRONMENT_NAME = Development
+# makefile (from 'Makefile', line 2)
+GITHUB_REPO := "pactflow/example-provider"
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+NPM_IDENT = c2Vya286bnNoMmg0b3l5dDRhcm5uanF5NDVuYXNtbGZsN2l5MnYzaWxkaHB5ZWMzYWtxeHRmYmdlYQ==
+# environment
+USERDOMAIN = AzureAD
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# environment
+NVM_HOME = C:\ProgramData\nvm
+# default
+MAKE_VERSION := 4.3
+# environment
+PLATFORMCODE = AN
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = AzureAD
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\MeadsChalcroft\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+GIT_TEST_DEBUG_UNSAFE_DIRECTORIES = true
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# makefile (from 'Makefile', line 3)
+PACT_CHANGED_WEBHOOK_UUID := "c76b601e-d66a-4eb1-88a4-6ebc50c0df8b"
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\MEADSC~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\be72b34e3ae406c5c61c6a9b65ca4fe1-1.70.2-main-sock
+# environment
+SERKOSOLWEBUAICLIENTID = ac9d4a9c-f511-47aa-aa60-3cd376af88b6
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+REGIONCODE = APJ
+# environment
+PROCESSOR_REVISION = a502
+# environment
+SERKOENVIRONMENT = test
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=12/150=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Workspace/PactTesting/JS/example-provider, mtime 1661482017): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+create_github_token_secret:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	curl -v -X POST ${PACT_BROKER_BASE_URL}/secrets \
+	-H "Authorization: Bearer ${PACT_BROKER_TOKEN}" \
+	-H "Content-Type: application/json" \
+	-H "Accept: application/hal+json" \
+	-d  "{\"name\":\"githubToken\",\"description\":\"Github token\",\"value\":\"${GITHUB_TOKEN}\"}"
+
+deploy: deploy_app record_deployment
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+record_deployment: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	@"${PACT_CLI}" broker record_deployment --pacticipant ${PACTICIPANT} --version ${GIT_COMMIT} --environment production
+
+no_deploy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo "Not deploying as not on master branch"
+
+.env:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .env
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 100):
+	touch .env
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-26 14:33:12
+#  File has been updated.
+#  Successfully updated.
+
+fake_ci: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	CI=true \
+	GIT_COMMIT=`git rev-parse --short HEAD`+`date +%s` \
+	GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` \
+	PACT_BROKER_PUBLISH_VERIFICATION_RESULTS=true \
+	make ci
+
+create_or_update_pact_changed_webhook:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	"${PACT_CLI}" \
+	  broker create-or-update-webhook \
+	  "https://api.github.com/repos/${GITHUB_REPO}/dispatches" \
+	  --header 'Content-Type: application/json' 'Accept: application/vnd.github.everest-preview+json' 'Authorization: Bearer $${user.githubToken}' \
+	  --request POST \
+	  --data '{ "event_type": "pact_changed", "client_payload": { "pact_url": "$${pactbroker.pactUrl}" } }' \
+	  --uuid ${PACT_CHANGED_WEBHOOK_UUID} \
+	  --consumer ${PACTICIPANT} \
+	  --contract-content-changed \
+	  --description "Pact content changed for ${PACTICIPANT}"
+
+can_i_deploy: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	"${PACT_CLI}" broker can-i-deploy --pacticipant ${PACTICIPANT} --version ${GIT_COMMIT} --to-environment production
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: test
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+test_pact_changed_webhook:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 93):
+	@curl -v -X POST ${PACT_BROKER_BASE_URL}/webhooks/${PACT_CHANGED_WEBHOOK_UUID}/execute -H "Authorization: Bearer ${PACT_BROKER_TOKEN}"
+
+fake_ci_webhook:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	CI=true \
+	GIT_COMMIT=`git rev-parse --short HEAD`+`date +%s` \
+	GIT_BRANCH=`git rev-parse --abbrev-ref HEAD` \
+	PACT_BROKER_PUBLISH_VERIFICATION_RESULTS=true \
+	make ci_webhook
+
+test: .env
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'Makefile', line 46):
+	npm run test
+
+ci: test can_i_deploy no_deploy
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+deploy_app:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	@echo "Deploying to production"
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ci_webhook: .env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	npm run test:pact
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=7/47=15%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 32 / storage = 352 B / avg = 11 B
+# current buf: size = 8174 B / used = 352 B / count = 32 / avg = 11 B
+
+# strcache performance: lookups = 64 / hit rate = 50%
+# hash-table stats:
+# Load=32/8192=0%, Rehash=0, Collisions=0/64=0%
+# Finished Make data base on Fri Aug 26 14:47:00 2022
+
+ 

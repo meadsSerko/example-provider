@@ -1,0 +1,5 @@
+make: Entering directory 'c:/Workspace/PactTesting/JS/example-provider'
+touch .env
+npm run test
+make: Leaving directory 'c:/Workspace/PactTesting/JS/example-provider'
+ 
